@@ -1,0 +1,70 @@
+.container-sidebar{
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;;
+  }
+  .content-sidebar{
+    margin-top: 100px;
+  }
+  
+  .dp-profil{
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+  }
+  .img-profil{
+    display: block;
+      width: 60px;
+      height: 60px;
+      background: #E6E7ED;
+      border-radius: 50%;
+      background-image: url(../../assets/img/ava.png);
+      background-position:50% 50%;
+      background-repeat:no-repeat;
+  }
+  .margin-up{
+    margin-top: -8px;
+  }
+
+  .save{
+    background-color: white;
+    color: red;
+  }
+  /* .save:hover{
+    background-color: red;
+  } */
+  .icon{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+  .Card{
+    background-color: #fff;
+    border: none;
+  }
+  .list-side{
+    margin-left: 80px;
+  }
+  
+  /* Small */
+  @media (max-width: 767.98px) {
+    .list-side{
+      margin-left: 0;
+    }
+  }
+  
+  /* Medium  */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .list-side{
+      margin-left: 0;
+    }
+  }
+  

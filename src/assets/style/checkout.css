@@ -1,0 +1,39 @@
+.ttl-addrs {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.address {
+  border: solid 1px;
+  width: 720px;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+.alamat {
+  border: solid 1px;
+  width: 100%;
+  border-radius: 4px;
+  /* margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 38px; */
+}
+
+.btn-choose-address {
+  width: 210px;
+  height: 36px;
+  border-radius: 24px;
+  border: solid 1px #9b9b9b;
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.addres-btn {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9b9b9b;
+  margin-top: 5px;
+}

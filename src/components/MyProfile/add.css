@@ -1,0 +1,29 @@
+.container-selling {
+  margin-left: 30%;
+  width: 70%;
+  background-color: #9b9b9b;
+}
+.container-content,
+.container-gap {
+  margin-left: 30px;
+  width: 85.8%;
+  background-color: #fff;
+}
+.container-content {
+  margin-top: 50px;
+}
+.container-gap {
+  margin-top: 40px;
+}
+.container-btn {
+  margin-left: 30px;
+  width: 85.8%;
+  margin-top: 40px;
+}
+h3 {
+  font-size: 20px;
+}
+.font-p-title {
+  font-size: 14px;
+  color: #9b9b9b;
+}

@@ -1,0 +1,82 @@
+.textNavbar {
+    color: #db3022 !important;
+    font-weight: "bold";
+    font-size: "24px";
+    margin-left: "10px";
+  }
+  /* .container-nav {
+    display: inline-flex;
+    flex-flow: column;
+  } */
+  /* nav {
+    width: 83%;
+    height: 100px;
+    top: 0;
+    flex-direction: row;
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+  } */
+  .textNavbar {
+    color: #db3022;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .icon-cart {
+    float: right;
+    margin-right: 0;
+  }
+  .dp-profil-nav{
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    /* margin: 0 20px; */
+  }
+  .img-profil-nav{
+    display: block;
+      width: 25px;
+      height: 25px;
+      background: #E6E7ED;
+      border-radius: 50%;
+      background-image: url(../../assets/img/ava.png);
+      background-size: 90%;
+      background-position:55% 40%;
+      background-repeat:no-repeat;
+  }
+  
+  /* Small */
+  @media (max-width: 767.98px) {
+    .textNavbar {
+      display: none;
+    }
+  
+    nav .text {
+      display: none;
+    }
+    .brand2 {
+      display: none;
+    }
+  
+    .brand {
+      margin: 0;
+    }
+  }
+  
+  /* Medium  */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .textNavbar {
+      display: none;
+    }
+  
+    nav .text {
+      display: none;
+    }
+    .brand2 {
+      display: none;
+    }
+  }
+  

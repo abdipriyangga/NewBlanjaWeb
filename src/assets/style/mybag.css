@@ -1,0 +1,126 @@
+.chart {
+    height: 64px;
+    width: 720px;
+    border-radius: 4px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+.left {
+    /* width: 720px; */
+    margin-top: 30px;
+}
+
+.right {
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    /* width: 370px; */
+}
+
+.selectAll {
+    display: flex;
+}
+
+.side{
+    padding: 20px;
+}
+
+.cek {
+    /* height: 12px;
+    width: 12px; */
+    color: red;
+}
+
+.selectitem {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shop-sumry {
+    /* width: 370px; */
+    height: max-content;
+    border-radius: 4px;
+    border: solid 1px;
+    padding: 24px;
+}
+
+.smry-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ttl-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.text-price {
+    font-size: 16px;
+}
+
+.pay {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-buy {
+    background-color: #DB3022;
+    color: white;
+    height: 36px;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-buy {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.btn-buy:hover {
+    background-color: white;
+    color: #DB3022;
+    border: solid 1px #DB3022;
+}
+
+.prodct {
+    /* height: 126px; */
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+.img-chart {
+    width: 70px;
+    height: 69px;
+    overflow: hidden;
+    margin-left: 25px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 8px;
+}
+
+.name-prodct {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brand-product {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.prc {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}

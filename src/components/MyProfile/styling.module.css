@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../../assets/fonts/Metropolis-Regular.otf");
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  border-radius: calc((4 / 1440) * 100vw);
+  width: calc((850 / 1440) * 100vw);
+  flex-direction: column;
+  height: fit-content;
+  margin-bottom: calc((25 / 1440) * 100vw);
+}
+.header {
+  width: 100%;
+  /* height: 15%; */
+  display: flex;
+  padding: 3%;
+  border-bottom: 1px solid #d4d4d4;
+  flex-direction: column;
+}
+.title {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 20px;
+  color: #222222;
+  line-height: calc((24 / 1440) * 100vw);
+}
+.formcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 3%; */
+  background-color: white;
+}
+.formcontainer_img {
+  border: 1px dashed #d4d4d4;
+  box-sizing: border-box;
+  border-radius: calc((4 / 1440) * 100vw);
+  padding: 3%;
+}
+.formcontainer_description {
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: calc((4 / 1440) * 100vw);
+}
+.form {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: calc((20 / 1440) * 100vw);
+}
+.label {
+  font-family: "Metropolis";
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9b9b9b;
+  align-items: center;
+  margin-right: calc((10 / 1440) * 100vw);
+}
+.input {
+  width: 50%;
+  height: calc((48 / 1440) * 100vw);
+  border: 1px solid #9b9b9b;
+  color: black;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+  border-radius: calc((4 / 1440) * 100vw);
+  padding-left: calc((11 / 1440) * 100vw);
+  font-size: 16px;
+  outline: none;
+}
+.radioselect {
+  height: calc((48 / 1440) * 100vw);
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.valueradio {
+  font-family: "Metropolis";
+  font-weight: 500;
+  font-size: 14px;
+  color: #9b9b9b;
+  margin-right: calc((10 / 1440) * 100vw);
+}
+.edit_img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* background-color: red; */
+  border-top: 1px solid #d4d4d4;
+  margin-top: calc((20 / 1440) * 100vw);
+}
+.content_img {
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main_img {
+  border-radius: calc((4 / 1440) * 100vw);
+  margin-right: calc((10 / 1440) * 100vw);
+  width: calc((120 / 1440) * 100vw);
+  height: calc((120 / 1440) * 100vw);
+  position: relative;
+}
+.containerMainImg {
+  width: calc((120 / 1440) * 100vw);
+  height: calc((120 / 1440) * 100vw);
+  overflow: hidden;
+}
+.mainImg {
+  width: calc((120 / 1440) * 100vw);
+  height: auto;
+}
+
+.mainPhoto {
+  height: calc((15 / 1440) * 100vw);
+  width: calc((120 / 1440) * 100vw);
+  text-align: center;
+  position: absolute;
+  bottom: -30;
+  color: #9b9b9b;
+}
+.secondary_img {
+  width: calc((80 / 1440) * 100vw);
+  height: calc((80 / 1440) * 100vw);
+  border-radius: calc((4 / 1440) * 100vw);
+  margin-right: calc((10 / 1440) * 100vw);
+  overflow: hidden;
+}
+.secondaryImg {
+  width: calc((80 / 1440) * 100vw);
+  height: auto;
+}
+.btnupload {
+  border-radius: calc((24 / 1440) * 100vw);
+  border: 1px solid #9b9b9b;
+  width: calc((160 / 1440) * 100vw);
+  height: calc((36 / 1440) * 100vw);
+  margin-top: calc((20 / 1440) * 100vw);
+  background-color: transparent;
+  cursor: pointer;
+  color: #9b9b9b;
+}
+.content_description {
+  width: 100%;
+  height: calc((150 / 1440) * 100vw);
+  padding-bottom: 0;
+  font-size: 16px;
+  padding-left: calc((11 / 1440) * 100vw);
+  outline: none;
+  border: none;
+  border-top: 1px solid #d4d4d4;
+}
+.btnsell {
+  background: #db3022;
+  border-radius: calc((25 / 1440) * 100vw);
+  width: calc((128 / 1440) * 100vw);
+  height: calc((48 / 1440) * 100vw);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  align-self: flex-end;
+  font-size: 16px;
+  outline: none;
+}
+.hiddeninput {
+  visibility: hidden;
+}
+.selectNew {
+  margin-right: calc((5 / 1440) * 100vw);
+  margin-bottom: calc((18 / 1440) * 100vw);
+}
+.selectOld {
+  margin-right: calc((25 / 1440) * 100vw);
+  margin-right: calc((5 / 1440) * 100vw);
+  margin-bottom: calc((18 / 1440) * 100vw);
+}

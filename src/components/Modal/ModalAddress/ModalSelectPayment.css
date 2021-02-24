@@ -1,0 +1,73 @@
+.container-modal {
+  /* padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem; */
+  padding: 1rem 2.4rem;
+  /* padding-top: 0px; */
+}
+
+.container-modal-footer {
+  padding: 1rem;
+}
+
+.text-top {
+  /* font-family: Metropolis; */
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  align-self: center;
+  margin: 1rem;
+}
+
+.no-border {
+  border: none;
+}
+
+.close {
+  font-size: 3rem;
+}
+
+.add-address {
+  border: 1px dashed #9b9b9b;
+  border-radius: 8px;
+  text-align: center;
+  padding: 3.4rem;
+  margin-top: 3rem;
+  margin-bottom: 3.4rem;
+}
+
+.text-title-head {
+  font-size: 1.8rem;
+}
+
+.container-item-payment {
+  margin-bottom: 2rem;
+}
+
+.container-item-payment img {
+  width: 80px;
+}
+
+.text-item-payment {
+  margin-left: 4rem;
+}
+
+.modal-body-container {
+  border-bottom: 5px solid #f4f4f4;
+}
+
+.container-item-summary {
+  margin-bottom: 1rem;
+}
+
+.text-price {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.btn-bu {
+  width: 8rem;
+  margin-left: 2rem;
+}

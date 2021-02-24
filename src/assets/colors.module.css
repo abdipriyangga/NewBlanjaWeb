@@ -1,0 +1,65 @@
+.black {
+  background-color: #222222;
+}
+
+.gray {
+  background-color: #9b9b9b;
+}
+
+.lightGray {
+  background-color: #d4d4d4;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.lightWhite {
+  background-color: #f9f9f9;
+}
+
+.error {
+  background-color: #f01f0e;
+}
+
+.primary {
+  background-color: #db3022;
+}
+
+.success {
+  background-color: #2aa952;
+}
+
+/* text */
+
+.blackText {
+  color: #222222;
+}
+
+.grayText {
+  color: #9b9b9b;
+}
+
+.lightGrayText {
+  color: #d4d4d4;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.lightWhiteText {
+  color: #f9f9f9;
+}
+
+.errorText {
+  color: #f01f0e;
+}
+
+.primaryText {
+  color: #db3022;
+}
+
+.successText {
+  color: #2aa952;
+}

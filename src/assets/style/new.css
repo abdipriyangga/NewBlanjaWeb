@@ -1,0 +1,41 @@
+.title-new h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+}
+
+.title-new p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: #9B9B9B;
+    text-align: left;
+}
+
+.card-style {
+    max-width: 210px;
+    margin: 5px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-text {
+    color: #DB3022;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 992px) {
+    .sticky-top {
+        position: static;
+    }
+}

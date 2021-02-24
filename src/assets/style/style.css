@@ -1,0 +1,274 @@
+.logo-brand h1 {
+  margin-top: -40px;
+  margin-left: 40px;
+  color: rgba(219, 48, 34, 1);
+  font-weight: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#search {
+  border-radius: 23px;
+  padding: 7px 15px;
+  color: gray;
+  width: 405px;
+  height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid gray;
+  font-weight: 500px;
+  margin: 10px 0px 0px 80px;
+}
+
+.icon {
+  margin-left: -50px;
+  color: gray;
+}
+
+.filter {
+  background: #ffffff;
+  border: 1px solid #8e8e93;
+  border-radius: 12px;
+  margin: 0px 0px 0px 14px;
+}
+
+#shopping {
+  border: 2px solid white;
+  border-radius: 3px;
+  color: grey;
+  /* margin-left: 80px; */
+}
+
+.login > .btn-login {
+  background: #db3022;
+  border-radius: 25px;
+  border: 1px solid white;
+  width: 100px;
+  height: 36px;
+  /* margin-left: 30px; */
+  color: white;
+}
+
+.btn-no{
+  align-self: flex-start; 
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border:1px solid black;
+  border-radius: 25px;
+  width: 100px;
+  height: 36px;
+}
+
+.signup > .btn-signup {
+  background: white;
+  border-radius: 25px;
+  border: 1px solid grey;
+  width: 100px;
+  height: 36px;
+  margin-left: 30px;
+  color: grey;
+}
+
+.color-1 {
+  width: 36px;
+  height: 36px;
+
+  /* background-color: black; */
+  border-radius: 50%;
+  border: none;
+}
+
+.color-2 {
+  width: 36px;
+  height: 36px;
+  background-color: white !important;
+  border-radius: 50%;
+  border: 1px solid black !important;
+}
+
+.color-3 {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(184, 34, 34, 1) !important;
+  border-radius: 50%;
+  border: none;
+}
+
+.color-4 {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(190, 169, 169, 1) !important;
+  border-radius: 50%;
+  border: none;
+}
+
+.color-5 {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(226, 187, 141, 1) !important;
+  border-radius: 50%;
+  border: none;
+}
+
+.color-6 {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(21, 24, 103, 1) !important;
+  border-radius: 50%;
+  border: none;
+}
+
+.title-category {
+  margin-top: 40px;
+}
+
+.color:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.category:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.size:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.discard {
+  background-color: white !important;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: black !important;
+  width: 200px;
+  height: 36px;
+  box-sizing: border-box;
+}
+
+.discard:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo-brand h1 {
+    margin-top: -40px;
+    margin-left: 40px;
+    color: rgba(219, 48, 34, 1);
+    font-weight: 1000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+  }
+
+  input#search {
+    color: gray;
+    width: 300px;
+    height: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    font-weight: 500px;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-left: -50px;
+    color: gray;
+  }
+
+  .filter {
+    background: #ffffff;
+    border: 1px solid #8e8e93;
+    border-radius: 12px;
+    margin: 0px;
+  }
+
+  #shopping {
+    border: 2px solid white;
+    border-radius: 3px;
+    color: grey;
+    margin-left: 0px;
+  }
+
+  .login > .btn-login {
+    background: #db3022;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 120px;
+    height: 36px;
+    margin-left: 0px;
+    color: white;
+  }
+
+  .signup > .btn-signup {
+    background: white;
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 120px;
+    height: 36px;
+    margin-left: 0px;
+    color: grey;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .logo-brand h1 {
+    margin-top: -40px;
+    margin-left: 40px;
+    color: rgba(219, 48, 34, 1);
+    font-weight: 1000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+  }
+
+  input#search {
+    color: gray;
+    width: auto;
+    height: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    font-weight: 500px;
+    margin: 0px;
+  }
+
+  .icon {
+    margin-left: -50px;
+    color: gray;
+  }
+
+  .filter {
+    background: #ffffff;
+    border: 1px solid #8e8e93;
+    border-radius: 12px;
+    margin: 0px;
+  }
+
+  #shopping {
+    border: 2px solid white;
+    border-radius: 3px;
+    color: grey;
+    margin-left: 0px;
+  }
+
+  .login > .btn-login {
+    background: #db3022;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 120px;
+    height: 36px;
+    margin-left: 0px;
+    color: white;
+  }
+
+  .signup > .btn-signup {
+    background: white;
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 120px;
+    height: 36px;
+    margin-left: 0px;
+    color: grey;
+  }
+}

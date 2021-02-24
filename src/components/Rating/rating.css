@@ -1,0 +1,4 @@
+.react-rater-star.is-active,
+.react-rater-star.will-be-active {
+  color: #ffba49 !important;
+}

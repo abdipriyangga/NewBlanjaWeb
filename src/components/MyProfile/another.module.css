@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../../assets/fonts/Metropolis-Regular.otf");
+}
+.container {
+  background-color: #ffffff;
+  /* display: flex; */
+  border: 1px solid #9b9b9b;
+  border-radius: 4px;
+  width: calc((850 / 1440) * 100vw);
+  padding: 3%;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.header {
+  width: 100%;
+  height: calc((100 / 900) * 100vh);
+  display: flex;
+  border-bottom: 1px solid #d4d4d4;
+  flex-direction: column;
+}
+.title {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 20px;
+  color: #222222;
+  line-height: 24px;
+}
+.subtitle {
+  margin-top: 5px;
+  font-family: "Metropolis";
+  font-weight: 500;
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 24px;
+}
+.addresscontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding: 5%;
+}
+.addnewaddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border: 1px dashed #d4d4d4;
+  border-radius: 4px;
+}
+.addtext {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #9b9b9b;
+  background: #ffffff;
+  cursor: pointer;
+}
+.listaddress {
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  /* height: 170px; */
+  background: #ffffff;
+  border: 1px solid #db3022;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 3%;
+}
+.listtitle {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.delete {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* margin-bottom: 10px; */
+  margin-left: 90%;
+  color: red;
+  cursor: pointer;
+}
+.detailaddress {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+}
+.changeaddress {
+  margin-top: 10px;
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #db3022;
+  cursor: pointer;
+}

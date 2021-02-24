@@ -1,0 +1,132 @@
+.title-category h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+}
+
+.title-category p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: #9B9B9B;
+    text-align: left;
+}
+
+.brand-category {
+    width: 206px;
+    height: 220px;
+    background: #CC0B04;
+    border-radius: 8px;
+}
+
+.brand-category img {
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.brand-category h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 90px;
+}
+
+.brand-category-1 {
+    width: 206px;
+    height: 220px;
+    background: #1C3391;
+    border-radius: 8px;
+}
+
+.brand-category-1 img {
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.brand-category-1 h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 90px;
+}
+
+.brand-category-2 {
+    width: 206px;
+    height: 220px;
+    /* background: #F67B02; */
+    border-radius: 8px;
+}
+
+.brand-category-2 img {
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.brand-category-2 h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 90px;
+}
+
+.brand-category-3 {
+    width: 206px;
+    height: 220px;
+    background: #E31F51;
+    border-radius: 8px;
+}
+
+.brand-category-3 img {
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.brand-category-3 h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 90px;
+}
+
+.brand-category-4 {
+    width: 206px;
+    height: 220px;
+    background: #57CD9E;
+    border-radius: 8px;
+}
+
+.brand-category-4 img {
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.brand-category-4 h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 90px;
+}

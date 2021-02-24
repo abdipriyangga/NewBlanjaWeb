@@ -1,0 +1,74 @@
+.section-chat {
+    background: black;
+    padding: 7vh 8vw;
+  }
+  .list-chat {
+    width: 100%;
+    height: 75vh;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  .text-message {
+    width: 100%;
+    height: 74vh;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  .listchat-header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding-top: 2vh;
+    padding-left: 20px;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .list-user {
+    padding: 5vh 0;
+    padding-left: 5vw;
+    line-height: 12px;
+  }
+  
+  .message-header {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding-top: 2vh;
+    padding-left: 70px;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .messaging {
+    height: 100%;
+  }
+  .chatting {
+    height: 75%;
+    overflow-y: auto;
+    padding: 5vh 5vw;
+  }
+  .input-message {
+    position: absolute;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .send {
+    margin-top: -3vh;
+    width: 40px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #db3022;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+  
+  @media screen and (max-width: 633px) {
+    .list-chat {
+      margin-bottom: 5vh;
+    }
+  }
+  

@@ -1,0 +1,128 @@
+.container-auth {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-register {
+  margin-bottom: 0vh;
+}
+
+.btn-custommer {
+  width: 18vh;
+  color: #9b9b9b;
+  padding: 1.5vh 0 1.5vh 0;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  background-color: #ffffff;
+}
+
+.btn-custommer-active {
+  width: 18vh;
+  color: #ffffff;
+  padding: 1.5vh 0 1.5vh 0;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  background-color: #db3022;
+}
+
+.btn-custommer,
+.btn-custommer-active:focus {
+  outline: none;
+}
+
+.btn-seller,
+.btn-seller-active:focus {
+  outline: none;
+}
+
+.btn-seller {
+  width: 18vh;
+  color: #9b9b9b;
+  padding: 1.5vh 0 1.5vh 0;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: #9b9b9b;
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: white;
+}
+
+.btn-seller-active {
+  width: 18vh;
+  color: #ffffff;
+  padding: 1.5vh 0 1.5vh 0;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: #9b9b9b;
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: #db3022;
+}
+
+.input-text {
+  padding-left: 3vh;
+  width: 50vh;
+  height: 6vh;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: #9b9b9b;
+  border-radius: 1vh;
+}
+
+.input-text:focus {
+  outline: none;
+  border-color: #3b3b3b;
+}
+
+::placeholder {
+  color: #9b9b9b;
+}
+
+.text-forgot-password {
+  padding-left: 33vh;
+  color: #db3022;
+}
+
+.btn-submit {
+  width: 50vh;
+  border-style: solid;
+  border-width: 0.1vh;
+  border-color: #9b9b9b;
+  border-radius: 10vh;
+  padding: 1.5vh 0 1.5vh 0;
+  color: #ffffff;
+  background-color: #db3022;
+}
+
+.btn-submit:focus {
+  outline: none;
+}
+
+.btn-submit:active {
+  background-color: #ee8b82;
+}
+
+.text-red {
+  color: #db3022;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .input-text {
+    width: 40vh;
+  }
+
+  .btn-submit {
+    width: 40vh;
+  }
+
+  .text-forgot-password {
+    padding-left: 25vh;
+  }
+}
