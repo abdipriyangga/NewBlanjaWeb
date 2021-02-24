@@ -13,8 +13,8 @@ Blanja-Web is an e-commerce web where customers can buy the items they are looki
 
 ## How to install
 * Open your terminal or command prompt
-* Clone Repository https://github.com/abdipriyangga/NewBlanjaWeb
-* Open folder and write yarn add or npm install for install dependencies
+* Clone Repository : git clone `https://github.com/abdipriyangga/NewBlanjaWeb`
+* Write yarn add or npm install for install dependencies
 * yarn start or npm start for running
 
 
