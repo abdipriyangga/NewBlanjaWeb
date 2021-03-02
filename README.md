@@ -19,4 +19,4 @@ Blanja-Web is an e-commerce web where customers can buy the items they are looki
 
 
 ## Repository Backend
-* [ClickHere](https://github.com/abdipriyangga/API-Blanja)
+* [BlanjaBackend](https://github.com/abdipriyangga/API-Blanja)
